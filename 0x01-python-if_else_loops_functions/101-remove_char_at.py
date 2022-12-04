@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # 101-remove_char_at.py
-# Gedeon Obae Gekonge <gideonobae@gmail.com>
-
-
+# Wisdom Isaac Oku <wisdomisaac168@gmail.com>
 def remove_char_at(str, n):
     """Create a copy of the string without the character at position n."""
     if n < 0:
