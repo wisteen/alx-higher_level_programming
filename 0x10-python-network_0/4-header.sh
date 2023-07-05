@@ -1,3 +1,7 @@
 #!/bin/bash
-# script that takes URL as arg sends GET request with additional info
-curl -sH "X-HolbertonSchool-User-Id: 98" "$1"
+
+url=$1
+header="X-School-User-Id: 98"
+
+curl -s -H "$header" "$url"
+echo ""
